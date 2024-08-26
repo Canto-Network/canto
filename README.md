@@ -1,5 +1,10 @@
 # Becoming A Validator
 
+[![Build Canto Core](https://github.com/Canto-Network/Canto/actions/workflows/build.yml/badge.svg)](https://github.com/Canto-Network/Canto/actions/workflows/build.yml)
+[![Docker Build](https://github.com/Canto-Network/Canto/actions/workflows/docker.yml/badge.svg)](https://github.com/Canto-Network/Canto/actions/workflows/docker.yml)
+[![Sims](https://github.com/Canto-Network/Canto/actions/workflows/sims.yml/badge.svg)](https://github.com/Canto-Network/Canto/actions/workflows/sims.yml)
+[![Tests / Code Coverage](https://github.com/Canto-Network/Canto/actions/workflows/test.yml/badge.svg)](https://github.com/Canto-Network/Canto/actions/workflows/test.yml)
+
 **How to validate on the Canto Mainnet**
 
 *(canto_7700-1)*
