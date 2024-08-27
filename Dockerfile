@@ -1,18 +1,12 @@
-FROM golang:stretch AS build-env
+FROM golang:1.21 AS build-env
 
 WORKDIR /go/src/github.com/canto/canto
-
-RUN apt-get update -y
-RUN apt-get install git -y
 
 COPY . .
 
 RUN make build
 
-FROM golang:stretch
-
-RUN apt-get update -y
-RUN apt-get install ca-certificates jq -y
+FROM debian:12-slim
 
 WORKDIR /root
 
